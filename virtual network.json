@@ -1,0 +1,42 @@
+{
+    "apiVersion": "2024-05-01",
+    "id": "/subscriptions/c026ac07-ffac-4e08-b69c-9240e6d12833/resourceGroups/az104-rg7/providers/Microsoft.Network/virtualNetworks/az104vnet1",
+    "name": "az104vnet1",
+    "type": "microsoft.network/virtualnetworks",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "f9cf7212-3aba-4d4f-bd45-eabd73547aa7",
+        "addressSpace": {
+            "addressPrefixes": [
+                "10.0.0.0/16"
+            ]
+        },
+        "encryption": {
+            "enabled": false,
+            "enforcement": "AllowUnencrypted"
+        },
+        "privateEndpointVNetPolicies": "Disabled",
+        "subnets": [
+            {
+                "name": "default",
+                "id": "/subscriptions/c026ac07-ffac-4e08-b69c-9240e6d12833/resourceGroups/az104-rg7/providers/Microsoft.Network/virtualNetworks/az104vnet1/subnets/default",
+                "etag": "W/\"c702dc3c-4e97-4f7e-8eeb-de4b87788b2c\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefixes": [
+                        "10.0.0.0/24"
+                    ],
+                    "delegations": [],
+                    "privateEndpointNetworkPolicies": "Disabled",
+                    "privateLinkServiceNetworkPolicies": "Enabled"
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+        ],
+        "virtualNetworkPeerings": [],
+        "enableDdosProtection": false
+    },
+    "etag": "W/\"c702dc3c-4e97-4f7e-8eeb-de4b87788b2c\""
+}
